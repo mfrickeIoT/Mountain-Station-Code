@@ -39,11 +39,9 @@ static const unsigned long TX_INTERVAL_ALARM_MS  = 5UL  * 60UL * 1000UL;  // 5 m
 
 // ALARM THRESHOLDS
 static const float TEMP_ALARM_C    = 0.0;    // Alarm if temperature >= 0°C
-static const float HUM_ALARM_RH    = 85.0;   // Alarm if humidity >= 85%
 static const float DISP_ALARM_MM   = 1.00;   // Alarm if displacement >= 1mm 
 // Hysteresis
 static const float TEMP_HYST_C     = 0.5;
-static const float HUM_HYST_RH     = 2.0;
 static const float DISP_HYST_MM    = 0.10;
 
 // DMS / NAU7802 SETTINGS
