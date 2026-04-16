@@ -129,7 +129,6 @@ static bool shouldEnterAlarm(float t, float h, float displacement_mm, bool dmsOk
   bool enterAlarm = false;
 
   if (t >= TEMP_ALARM_C) enterAlarm = true;
-  if (h >= HUM_ALARM_RH) enterAlarm = true;
   if (dmsOk && displacement_mm >= DISP_ALARM_MM) enterAlarm = true;
 
   return enterAlarm;
